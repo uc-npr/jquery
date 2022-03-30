@@ -22,11 +22,11 @@
 </head>
 
 <body>
-    <!-- Hide p whwn click button -->
-    <Button class="hide_p">Hide me</Button>
-    <p class="hide_me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla illo maiores odio delectus iusto maxime at, libero numquam magni.</p>
-
-    <!-- jquary Events -->
+    <!-- Hide p when click button -->
+    <!-- <Button class="hide_p">Hide me</Button>
+    <p class="hide_me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla illo maiores odio delectus iusto maxime at, libero numquam magni.</p> -->
+<!-- 
+    jquary Events
 <div class="event1">e1</div>
 <div class="event2">e2</div>
 <div class="event3">e3</div>
@@ -35,7 +35,154 @@
 <div class="event6">e6</div>
 <div class="event7">e7</div>
 <input type="text" class="event8"><br>
-<input type="text" class="event9">
+<input type="text" class="event9"> -->
+
+<button class="ft">FadeToggle</button>
+<button class="fi">FadeIn</button>
+<button class="fo">FadeOut</button>
+<button class="fto">FadeTo</button>
+
+<p>This is a paragraph with little content.</p>
+<p>This is another small paragraph.</p>
+
+<hr>
+<style> 
+    #content, #content2, #sd, #su, #st, #st2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e2e2e2;
+    border: solid 1px #c3c3c3;
+    }
+    
+    #content, #content2 {
+    padding: 50px;
+    display: none;
+    }
+    </style>
+<button id="sd">Slide down</button>
+<button id="su">Slide Up</button>
+<button id="st">Slide Toggle</button>
+<div id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, maxime.</div>
+
+<hr>
+
+<button class="left_animation">Start Animation</button>
+<div class="box" style="background:red;height:100px;width:100px;position:absolute;"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="animation1">Start Animation</button>
+<div class="box1" style="background:red;height:100px;width:100px;position:absolute;"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button class="animation2">Start Animation</button>
+<div class="box2" style="background:red;height:100px;width:100px;position:absolute;"></div>
+
+<!-- stop  -->
+<button class="stop">Stop last animation</button>
+
+<br><br><br><br><br><br><br><br>
+<button class="stop_slide">Stop Slide</button>
+
+<button id="st2">Slide Toggle</button>
+<div id="content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, maxime.</div>
+
+<hr>
+
+<button class="callback">Hide me</button>
+
+<p class="hide_p">This is a paragraph with little content.</p>
+<p class="hide_p">This is another small paragraph.</p>
+
+<hr>
+<div class="add">
+    <p title="Hello" id="test">This is some <b>bold</b> text in a paragraph.</p>
+</div>
+
+<button id="btn1">Show Text</button>
+<button id="btn2">Show HTML</button>
+<button id="btn3">Show title attr value</button>
+<button id="btn4">Append</button>
+<button id="btn5">PreAppend</button>
+<button id="btn6">before</button>
+<button id="btn7">after</button>
+<button id="btn8">remove</button>
+
+<hr>
+<style>
+    .box3{
+        background: #ddd;
+    }
+    .red{
+        background: red;
+    }
+    .box4{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        margin: 5px;
+        border: 15px solid black;
+        background: #ddd;
+    }
+</style>
+<div class="box3" style="width:200px;height:200px;">
+</div>
+
+<button id="btn9">add red class</button>
+<button id="btn10">remove red class</button>
+<button id="btn11">toggle red class</button>
+
+
+
+<hr>
+<div class="box4">
+</div>
+
+<button id="btn12">Show width</button>
+<button id="btn13">Show height</button>
+<button id="btn14">Show innerwidth</button>
+<button id="btn15">Show innerheight</button>
+<button id="btn16">Show outerwidth</button>
+<button id="btn17">Show outerheight</button>
+<p class="show_dim"></p>
+
+<hr>
+
+<div class="grand-grand-parent">grand-grand-parent
+    <div class="grand-parent">grand-parent
+        <div class="parent">parent
+            <div class="child">child</div>
+        </div>
+    </div>
+</div>
+
+<button id="btn18">parent of child</button>
+<button id="btn19">grand parent of child</button>
+<button id="btn20">grand grand parent of child</button><br>
+<button id="btn21">child of parent</button>
+<button id="btn22">child of grand parent</button>
+<button id="btn23">child of gran grand parent</button>
+
+<style>
+    .grand-grand-parent, .grand-parent, .parent, .child {
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+    }
+</style>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
     <!-- jQuery file -->
     <script src="/jquery-3.6.0.min.js"></script>
 
